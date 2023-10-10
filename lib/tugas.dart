@@ -133,36 +133,36 @@ class _TugasPageState extends State<TugasPage> {
                 ),
               ),
             ),
+            Container(
+               alignment: Alignment.center,
+              width: double.infinity,
+              child: Row(
+                children: [
+                          Text(
+                            "Royal Kuningan Hotel",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                                fontSize: 25, fontWeight: FontWeight.bold), 
+                                
+                          ),
+                        ],
+                      ),
+            ),
             Flexible(
               flex: 4,
               child: Container(
                 margin: EdgeInsets.all(5),
                 width: double.infinity,
                 height: double.infinity,
-                child: Column(
-                  children: [
-                    Row(
-                      children: [
-                        Text(
-                          "Royal Kuningan Hotel",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                              fontSize: 25, fontWeight: FontWeight.bold), 
-                              
-                        ),
-                      ],
-                    ),
-                    SingleChildScrollView(
+                child: SingleChildScrollView(
                       scrollDirection: Axis.vertical,
                       child: Column(children: [
                         Text(
                             "Id leo in vitae turpis. Tortor at auctor urna nunc id cursus. Tristique senectus et netus et. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Pharetra sit amet aliquam id diam. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan. Viverra ipsum nunc aliquet bibendum. Purus sit amet luctus venenatis lectus magna. Amet volutpat consequat mauris nunc congue nisi vitae. Netus et malesuada fames ac turpis egestas. Arcu vitae elementum curabitur vitae nunc sed. Pulvinar etiam non quam lacus suspendisse faucibus interdum. Neque convallis a cras semper auctor neque vitae tempus. Aliquam nulla facilisi cras fermentum odio. Sollicitudin tempor id eu nisl nunc mi ipsum. Id leo in vitae turpis. Tortor at auctor urna nunc id cursus. Tristique senectus et netus et. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Pharetra sit amet aliquam id diam. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan. Viverra ipsum nunc aliquet bibendum. Purus sit amet luctus venenatis lectus magna. Amet volutpat consequat mauris nunc congue nisi vitae. Netus et malesuada fames ac turpis egestas. Arcu vitae elementum curabitur vitae nunc sed. Pulvinar etiam non quam lacus suspendisse faucibus interdum. Neque convallis a cras semper auctor neque vitae tempus. Aliquam nulla facilisi cras fermentum odio. Sollicitudin tempor id eu nisl nunc mi ipsum.")
                       ]),
                     ),
-                  ],
                 ),
-              ),
-            ),
+              )
           ],
         ),
       ),
