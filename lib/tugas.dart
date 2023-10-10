@@ -13,7 +13,11 @@ class _TugasPageState extends State<TugasPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Mission 1"),
+        title: const Text("Mission 1",
+        style: TextStyle(
+                          fontSize: 25,
+                          fontWeight: FontWeight.w500,
+                        ),),
         backgroundColor: Colors.blue[400],
         foregroundColor: Colors.white,
       ),
